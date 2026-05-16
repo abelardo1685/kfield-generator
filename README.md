@@ -1,4 +1,3 @@
-# Generador Espectral de Campos de Conductividad Hidráulica 3D
 # Spectral Random Hydraulic Conductivity Field Generator (3D)
 
 > Basado en el toolbox MATLAB de **Wolfgang Nowak** (IWS, Universidad de Stuttgart)  
