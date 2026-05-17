@@ -298,7 +298,7 @@ Para cargar el archivo en otro script Python:
 import numpy as np
 
 data    = np.load('Kfields_output/Kfield_3D_N5_20260516_140000.npz')
-lnK_ens = data['lnK_ensemble']   # shape: (N, ny+1, nx+1, nz+1)
+lnK_ens = data['lnK_ensemble']   # shape: (N, ny, nx, nz)
 K_ens   = data['K_ensemble']     # K en m/s
 x_vec   = data['x_vec']          # coordenadas x [m]
 y_vec   = data['y_vec']          # coordenadas y [m]
@@ -515,7 +515,7 @@ All parameters are in **Section 1** of the notebook (Cell 4):
 import numpy as np
 
 data    = np.load('Kfields_output/Kfield_3D_N5_YYYYMMDD_HHMMSS.npz')
-lnK_ens = data['lnK_ensemble']   # shape: (N, ny+1, nx+1, nz+1)
+lnK_ens = data['lnK_ensemble']   # shape: (N, ny, nx, nz)
 K_ens   = data['K_ensemble']     # K in m/s
 x_vec   = data['x_vec']
 y_vec   = data['y_vec']
