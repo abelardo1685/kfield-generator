@@ -1,0 +1,15 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it as below."
+title: "kfield-generator: spectral random hydraulic-conductivity field generator for 3D aquifers"
+authors:
+  - family-names: "Rodríguez-Pretelín"
+    given-names: "Abelardo"
+    orcid: "https://orcid.org/0000-0002-3560-2410"
+    affiliation: "Instituto de Geología, Universidad Nacional Autónoma de México (UNAM)"
+repository-code: "https://github.com/abelardo1685/kfield-generator"
+license: MIT
+abstract: "Spectral generator of Gaussian random hydraulic-conductivity fields for 3D aquifers."
+keywords:
+  - groundwater
+  - hydrogeology
+  - computational hydrogeology
